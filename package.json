@@ -1,0 +1,11 @@
+{
+  "name": "codealpha-ecommerce-store",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm start --prefix server",
+    "dev": "npm run dev:server & npm run dev:client"
+  }
+}
+
